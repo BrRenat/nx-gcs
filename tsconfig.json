@@ -15,8 +15,7 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "target": "esnext",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "module": "CommonJS",
     "types": ["jest"],
     "lib": ["esnext"]
   },

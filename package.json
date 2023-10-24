@@ -2,7 +2,6 @@
   "name": "nx-gcs",
   "version": "1.0.3",
   "author": "Renat Berezovsky",
-  "type": "module",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "executors": "./executors.json",
