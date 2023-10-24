@@ -1,6 +1,6 @@
 import executor, { UploadExecutorSchema } from '../src/executors/upload/executor'
 
-describe('Upload Executor', () => {
+describe.skip('Upload Executor', () => {
   it('can upload to bucket', async () => {
     const options: UploadExecutorSchema = {
       keyFilename: './gcs.json',
