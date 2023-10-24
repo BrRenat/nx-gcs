@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/BrRenat/nx-gcs/compare/v1.0.1...v1.0.2) (2023-10-24)
+
+
+### Bug Fixes
+
+* bump new release ([8589f8c](https://github.com/BrRenat/nx-gcs/commit/8589f8c0c8cc78a5603d2d963f30c22649de2567))
+
 ## [1.0.1](https://github.com/BrRenat/nx-gcs/compare/v1.0.0...v1.0.1) (2023-10-24)
 
 

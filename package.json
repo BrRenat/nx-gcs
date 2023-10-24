@@ -1,6 +1,6 @@
 {
   "name": "nx-gcs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Renat Berezovsky",
   "type": "module",
   "main": "./lib/index.js",
