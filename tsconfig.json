@@ -15,7 +15,7 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "target": "esnext",
-    "module": "CommonJS",
+    "module": "nodenext",
     "types": ["jest"],
     "lib": ["esnext"]
   },
