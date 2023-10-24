@@ -10,7 +10,7 @@ export const parseEnv = (input: string) => {
     const [input, name] = match
     const value = process.env[name]
     if (value !== undefined) {
-      result.replaceAll(input, value)
+      result = result.replaceAll(input, value)
     }
   }
 

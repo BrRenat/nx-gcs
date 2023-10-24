@@ -1,6 +1,6 @@
 {
   "name": "@brrenat/nx-gcs",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "author": "Renat Berezovsky",
   "type": "module",
   "main": "./lib/index.js",
@@ -9,8 +9,11 @@
   "scripts": {
     "build": "pnpm clean && tsc",
     "clean": "rm -rf ./lib",
-    "test": "NODE_OPTIONS=--experimental-vm-modules DEBUG=NX_GCS jest"
+    "lint": "eslint 'src/**/*.ts'",
+    "test": "NODE_OPTIONS=--experimental-vm-modules DEBUG=NX_GCS jest",
+    "semantic-release": "semantic-release"
   },
+  "public": true,
   "files": [
     "/lib",
     "./executors.json",
@@ -39,10 +42,16 @@
     "@types/jest": "^29.5.6",
     "@types/mime": "^3.0.3",
     "@types/node": "^20.8.8",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
     "eslint": "^8.52.0",
-    "eslint-plugin-unicorn": "^48.0.1",
     "jest": "^29.7.0",
+    "semantic-release": "^22.0.5",
     "tslib": "^2.3.0",
     "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrRenat/nx-gcs.git"
   }
 }
