@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/BrRenat/nx-gcs/compare/v1.0.3...v1.0.4) (2023-10-24)
+
+
+### Bug Fixes
+
+* migrate to cjs ([b4c8370](https://github.com/BrRenat/nx-gcs/commit/b4c8370ea6f8fad97abe3108d89790c49e3d6cd8))
+
 ## [1.0.3](https://github.com/BrRenat/nx-gcs/compare/v1.0.2...v1.0.3) (2023-10-24)
 
 
