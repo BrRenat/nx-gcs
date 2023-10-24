@@ -1,5 +1,5 @@
 {
-  "name": "@brrenat/nx-gcs",
+  "name": "nx-gcs",
   "version": "1.0.0",
   "author": "Renat Berezovsky",
   "type": "module",

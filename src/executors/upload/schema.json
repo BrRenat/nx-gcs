@@ -6,7 +6,8 @@
   "type": "object",
   "properties": {
     "keyFilename": {
-      "type": "string"
+      "type": "string",
+      "description": "'/path/to/gcs-keyfile.json'"
     },
     "bucketName": {
       "type": "string"
