@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./lib",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "strict": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "target": "esnext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["jest"],
+    "lib": ["esnext"]
+  },
+  "include": ["./src/**/*.ts"]
+}

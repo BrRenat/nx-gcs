@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "version": 2,
+  "title": "Upload executor",
+  "description": "upload files to gcb",
+  "type": "object",
+  "properties": {
+    "keyFilename": {
+      "type": "string"
+    },
+    "bucketName": {
+      "type": "string"
+    },
+    "bucketDir": {
+      "type": "string"
+    },
+    "baseDir": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "gzip": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "failEmpty": {
+      "type": "boolean"
+    },
+    "retries": {
+      "type": "number"
+    },
+    "concurrent": {
+      "type": "number"
+    },
+    "cwd": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object"
+    },
+    "access": {
+      "type": "string"
+    }
+  },
+  "required": ["keyFilename", "bucketName", "bucketDir", "sources"]
+}
