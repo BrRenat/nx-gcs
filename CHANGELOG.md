@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/BrRenat/nx-gcs/compare/v1.0.4...v1.0.5) (2023-10-24)
+
+
+### Bug Fixes
+
+* import esm module ([4ea84b6](https://github.com/BrRenat/nx-gcs/commit/4ea84b61c4ea26e74ea389bff06230f17cecf83d))
+
 ## [1.0.4](https://github.com/BrRenat/nx-gcs/compare/v1.0.3...v1.0.4) (2023-10-24)
 
 
