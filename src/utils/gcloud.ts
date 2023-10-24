@@ -3,7 +3,6 @@ import path from 'path'
 import mime from 'mime'
 import { glob } from 'glob'
 import debug from 'debug'
-import pRetry from 'p-retry'
 import Bottleneck from 'bottleneck'
 import { Storage, BucketMetadata, Bucket } from '@google-cloud/storage'
 
@@ -105,6 +104,7 @@ export const gcloud = async (options: GCloudOptions) => {
   const gzipSet = gzip && gzip.length ? new Set<string>(gzip) : new Set<string>()
 
   try {
+    const pRetry = (await import('p-retry')).default
     // firstly try to upload one file (check credentials, destination conflict)
     await uploadFile(firstFile, bucket, { bucketDir, access, gzipSet, baseDir, metadata })
 
