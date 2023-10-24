@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/BrRenat/nx-gcs/compare/v1.0.2...v1.0.3) (2023-10-24)
+
+
+### Bug Fixes
+
+* added move assets to build ([0063814](https://github.com/BrRenat/nx-gcs/commit/00638146c0c238e3a9d5deb2f0488cae841ee7a5))
+
 ## [1.0.2](https://github.com/BrRenat/nx-gcs/compare/v1.0.1...v1.0.2) (2023-10-24)
 
 
