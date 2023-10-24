@@ -35,7 +35,8 @@
       }
     },
     "failEmpty": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "fail if no uploading files"
     },
     "retries": {
       "type": "number"
