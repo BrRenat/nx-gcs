@@ -7,7 +7,8 @@
   "typings": "./lib/index.d.ts",
   "executors": "./executors.json",
   "scripts": {
-    "build": "pnpm clean && tsc",
+    "build": "pnpm clean && tsc && pnpm copy-assets",
+    "copy-assets": "cp ./src/executors/upload/schema.json ./lib/executors/upload/schema.json",
     "clean": "rm -rf ./lib",
     "lint": "eslint 'src/**/*.ts'",
     "test": "NODE_OPTIONS=--experimental-vm-modules DEBUG=NX_GCS jest",

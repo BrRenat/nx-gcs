@@ -1,8 +1,8 @@
 {
   "executors": {
     "upload": {
-      "implementation": "./src/executors/upload/executor",
-      "schema": "./src/executors/upload/schema.json",
+      "implementation": "./lib/executors/upload/executor",
+      "schema": "./lib/executors/upload/schema.json",
       "description": "Upload to google cloud storage executor"
     }
   }
