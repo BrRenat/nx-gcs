@@ -24,6 +24,6 @@ jobs:
       - name: Build
         run: pnpm build
       - name: Release
-        run: pnpm sematic-release
+        run: pnpm semantic-release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
